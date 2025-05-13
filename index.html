@@ -9,7 +9,11 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Test.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Test" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="1C5B6783-C10C-47E7-8EF1-3B8096B4D007" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="575,175" size="100,100">**Welcome to EPAM GenAI Day!** 🎉
+<tw-storydata name="Test" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="1C5B6783-C10C-47E7-8EF1-3B8096B4D007" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="575,175" size="100,100">(set: $score to 0)
+(set: $name to &quot;&quot;)
+(set: $email to &quot;&quot;)
+
+**Welcome to EPAM GenAI Day!** 🎉
 
 You are about to step into a world of Generative AI. In this game, you&#39;ll be presented with 10 statements. Choose the correct ones, and you&#39;ll make it through the forest safely. Choose the wrong ones, and you&#39;ll face a **Demon**! 👹
 
@@ -280,7 +284,8 @@ GenAI outputs are always factual and trustworthy by default.
   &lt;/div&gt;
 
 &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="14" name=" Home" tags="" position="637.5,1550" size="100,100">🎉 **Congratulations!**
+</tw-passagedata><tw-passagedata pid="14" name=" Home" tags="" position="637.5,1550" size="100,100">(set: $score to $score + 1)
+🎉 **Congratulations!**
 
 You’ve reached **Home** after busting all the GenAI myths!
 
