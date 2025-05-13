@@ -1,1 +1,0 @@
-# GenAI-day---Myth-buster
